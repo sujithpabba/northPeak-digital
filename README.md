@@ -150,6 +150,29 @@ This project helped strengthen my understanding of:
 
 ---
 
+## Future Improvements
+
+Potential enhancements for future versions of the project include:
+
+- Backend integration for the contact form
+- Email notifications for form submissions
+- Dark mode support
+- Active navigation highlighting
+- Improved accessibility (ARIA labels and keyboard navigation)
+- SEO optimization with meta tags
+- Performance optimization using lazy loading
+- Unit testing for React components
+
+---
+
+## Author
+
+**Sujith P**
+
+- GitHub: https://github.com/sujithpabba
+
+---
+
 ## 📄 License
 
 This project is created for learning and portfolio purposes.
