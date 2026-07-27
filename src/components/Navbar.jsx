@@ -84,17 +84,21 @@ const Navbar = () => {
 
         <div className="hidden lg:block">
           <a href="#contact">
-          <Button>
-            Get Quote
-          </Button>
+            <Button>
+              Get Quote
+            </Button>
           </a>
         </div>
 
         {/* Mobile Menu Button */}
 
         <button
+          type="button"
           onClick={() => setMenuOpen(!menuOpen)}
-          className="lg:hidden text-3xl text-[#2B2B2B]"
+          aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={menuOpen}
+          aria-controls="mobile-navigation"
+          className="lg:hidden text-3xl text-[#2B2B2B] p-3"
         >
           {menuOpen ? <HiXMark /> : <HiBars3BottomRight />}
         </button>
@@ -105,7 +109,7 @@ const Navbar = () => {
 
       {menuOpen && (
 
-        <div className="lg:hidden mt-4 px-6">
+        <div id="mobile-navigation" className="lg:hidden mt-4 px-6">
 
           <div className="rounded-3xl bg-white shadow-xl p-6">
 

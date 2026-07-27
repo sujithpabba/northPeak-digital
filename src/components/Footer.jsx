@@ -6,7 +6,6 @@ import {
 } from "react-icons/fa6";
 
 import Container from "../ui/Container";
-import { label } from "framer-motion/client";
 
 const Footer = () => {
   return (
@@ -108,7 +107,7 @@ const Footer = () => {
                   link: "https://x.com/",
                   label: "XTwitter",
                 },
-              ].map(({ icon: Icon, link }, index) => (
+              ].map(({ icon: Icon, link, label }, index) => (
                 <a
                   key={index}
                   href={link}
@@ -139,7 +138,7 @@ const Footer = () => {
           © {new Date().getFullYear()} Elevate Studio. All Rights Reserved.
         </div>
 
-        <div className="mt-8 border-t border-[#E8DED3] pt-6 text-center py-2 text-[#4A403A]">
+        <div className="mt-8 border-t border-[#444] pt-6 text-center py-2 text-gray-300">
           <p>
             Built for{" "}
             <a
@@ -147,13 +146,11 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block
-        py-2
+              py-2
         px-1
         font-medium
         text-[#D18A6A]
-        hover:underline
- text-[#D18A6A] hover:underline"
-            >
+        hover:underline">
               Digital Heroes Training Task
             </a>
           </p>

@@ -5,7 +5,7 @@ const Button = ({
   ...props
 }) => {
   const base =
-    "inline-flex items-center justify-center rounded-full px-7 py-4 font-medium transition-all duration-300";
+    "inline-flex items-center justify-center rounded-full px-7 py-4 px-8 min-h-[48px] font-medium transition-all duration-300";
 
   const variants = {
     primary:

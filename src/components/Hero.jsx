@@ -113,11 +113,10 @@ const Hero = () => {
 
                         <div className="mt-10 mb-15 flex gap-5">
 
-                            <a href="#pricing">
-                                <Button>
+                            
+                                <Button as="a" href="#contact">
                                     Get Started
                                 </Button>
-                            </a>
 
                             <a href="#services">
                             <Button variant="secondary">
