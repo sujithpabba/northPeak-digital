@@ -122,6 +122,20 @@ const Footer = () => {
         <div className="mt-16 border-t border-[#444] pt-8 text-center text-gray-400">
           © {new Date().getFullYear()} Elevate Studio. All Rights Reserved.
         </div>
+
+        <div className="mt-8 border-t border-[#E8DED3] pt-6 text-center text-sm text-[#5E544D]">
+          <p>
+            Built for{" "}
+            <a
+              href="https://digitalheroesco.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-[#B56A4C] hover:underline"
+            >
+              Digital Heroes Training Task
+            </a>
+          </p>
+        </div>
       </Container>
     </footer>
   );
