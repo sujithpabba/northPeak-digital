@@ -1,16 +1,155 @@
-# React + Vite
+# North Peak Digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive agency landing page built with **React**, **Vite**, and **Tailwind CSS**. The project showcases a clean, minimal design with reusable components, smooth animations, and a responsive layout optimized for desktop, tablet, and mobile devices.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Vercel deployment link
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> https://github.com/sujithpabba/northPeak-digital.git
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Modern and responsive UI
+- Hero section with animated statistics
+- Clean, minimal design
+- Reusable React components
+- Smooth animations using Framer Motion
+- Responsive navigation
+- Services section
+- About section
+- Pricing packages
+- Contact form with basic validation
+- Professional footer with social links
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+
+### Libraries
+
+- Framer Motion
+- React Icons
+
+---
+
+## Project Structure
+
+```
+src/
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── fonts/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Services.jsx
+│   ├── About.jsx
+│   ├── Pricing.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+│
+├── ui/
+│   ├── Button.jsx
+│   ├── Container.jsx
+│   ├── Counter.jsx
+│   ├── Input.jsx
+│   ├── PricingCard.jsx
+│   ├── SectionTitle.jsx
+│   └── ServiceCard.jsx
+│
+├── data/
+│   ├── about.js
+│   ├── contact.js
+│   ├── hero.js
+│   ├── pricing.js
+│   └── services.js
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+```
+
+### Navigate to the Project
+
+```bash
+cd your-repository
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## Learning Outcomes
+
+This project helped strengthen my understanding of:
+
+- React Functional Components
+- Component Reusability
+- Props
+- State Management using `useState`
+- Event Handling
+- Form Validation
+- Responsive Design
+- Tailwind CSS
+- Framer Motion Animations
+- Project Structure and Organization
+
+---
+
+## 📄 License
+
+This project is created for learning and portfolio purposes.
