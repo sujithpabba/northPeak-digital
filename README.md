@@ -4,7 +4,7 @@ A modern, responsive agency landing page built with **React**, **Vite**, and **T
 
 ## Live Demo
 
-> Vercel deployment link
+> https://north-peak-digital-zeta-pied.vercel.app/
 
 ## GitHub Repository
 
