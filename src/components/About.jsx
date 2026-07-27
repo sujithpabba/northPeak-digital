@@ -5,7 +5,7 @@ import about from "../data/about";
 import Container from "../ui/Container";
 import Button from "../ui/Button";
 
-import aboutImage from "../assets/images/about-image.png";
+import aboutImage from "../assets/images/about-image.webp";
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="inline-flex rounded-full bg-[#F4ECE4] px-5 py-2 text-sm font-medium text-[#B56A4C]">
+            <span className="inline-flex rounded-full bg-[#F4ECE4] px-5 py-2 text-sm font-medium text-[#8A4B2F]">
               {about.badge}
             </span>
 
@@ -27,7 +27,7 @@ const About = () => {
               {about.title}
             </h2>
 
-            <p className="mt-8 text-lg leading-8 text-[#5E544D]">
+            <p className="mt-8 text-lg leading-8 text-[#4A403A]">
               {about.description}
             </p>
 
@@ -55,7 +55,7 @@ const About = () => {
             <div className="mt-10 space-y-5">
               {about.features.map((feature) => (
                 <div key={feature.id} className="flex items-center gap-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#F4ECE4] text-[#B56A4C]">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#F4ECE4] text-[#8A4B2F]">
                     <FaCheck />
                   </div>
 

@@ -22,13 +22,13 @@ const PricingCard = ({
         hover:-translate-y-2
         hover:shadow-2xl
         ${popular
-          ? "border-2 border-[#B56A4C] scale-105"
+          ? "border-2 border-[#8A4B2F] scale-105"
           : "border border-[#E8DED3]"
         }
       `}
     >
       {popular && (
-        <span className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-[#B56A4C] px-4 py-2 text-sm font-medium text-white">
+        <span className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-[#8A4B2F] px-4 py-2 text-sm font-medium text-white">
           Most Popular
         </span>
       )}
@@ -37,11 +37,11 @@ const PricingCard = ({
         {title}
       </h3>
 
-      <p className="mt-2 text-[#5E544D]">
+      <p className="mt-2 text-[#4A403A]">
         {description}
       </p>
 
-      <h2 className="mt-8 text-5xl font-bold text-[#B56A4C]">
+      <h2 className="mt-8 text-5xl font-bold text-[#8A4B2F]">
         {price}
       </h2>
 
@@ -53,7 +53,7 @@ const PricingCard = ({
             key={index}
             className="flex items-center gap-3"
           >
-            <FaCheck className="text-[#B56A4C]" />
+            <FaCheck className="text-[#8A4B2F]" />
             <span>{feature}</span>
           </div>
         ))}

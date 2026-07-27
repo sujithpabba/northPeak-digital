@@ -85,16 +85,16 @@ const Contact = () => {
                     key={item.id}
                     className="flex items-start gap-5"
                   >
-                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#F4ECE4] text-[#B56A4C]">
+                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#F4ECE4] text-[#8A4B2F]">
                       <Icon />
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-xl">
+                      <h3 className="font-semibold text-xl">
                         {item.title}
-                      </h4>
+                      </h3>
 
-                      <p className="mt-2 text-[#5E544D]">
+                      <p className="mt-2 text-[#4A403A]">
                         {item.value}
                       </p>
                     </div>

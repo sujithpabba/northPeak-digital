@@ -9,10 +9,10 @@ const Button = ({
 
   const variants = {
     primary:
-      "bg-[#B56A4C] text-white shadow-lg hover:bg-[#9E5B40] hover:-translate-y-1",
+      "bg-[#8A4B2F] text-white shadow-lg hover:bg-[#733A23] hover:-translate-y-1",
 
     secondary:
-      "border border-[#B56A4C] text-[#B56A4C] hover:bg-[#B56A4C] hover:text-white",
+      "border border-[#8A4B2F] text-[#8A4B2F] hover:bg-[#8A4B2F] hover:text-white",
   };
 
   return (

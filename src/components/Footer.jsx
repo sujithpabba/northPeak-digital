@@ -6,6 +6,7 @@ import {
 } from "react-icons/fa6";
 
 import Container from "../ui/Container";
+import { label } from "framer-motion/client";
 
 const Footer = () => {
   return (
@@ -33,31 +34,31 @@ const Footer = () => {
 
             <ul className="mt-6 space-y-3 text-gray-300">
               <li>
-                <a href="#home" className="hover:text-[#B56A4C] transition">
+                <a href="#home" className="hover:text-[#D18A6A] transition">
                   Home
                 </a>
               </li>
 
               <li>
-                <a href="#services" className="hover:text-[#B56A4C] transition">
+                <a href="#services" className="hover:text-[#D18A6A] transition">
                   Services
                 </a>
               </li>
 
               <li>
-                <a href="#about" className="hover:text-[#B56A4C] transition">
+                <a href="#about" className="hover:text-[#D18A6A] transition">
                   About
                 </a>
               </li>
 
               <li>
-                <a href="#pricing" className="hover:text-[#B56A4C] transition">
+                <a href="#pricing" className="hover:text-[#D18A6A] transition">
                   Packages
                 </a>
               </li>
 
               <li>
-                <a href="#contact" className="hover:text-[#B56A4C] transition">
+                <a href="#contact" className="hover:text-[#D18A6A] transition">
                   Contact
                 </a>
               </li>
@@ -90,23 +91,28 @@ const Footer = () => {
                 {
                   icon: FaFacebookF,
                   link: "https://www.facebook.com/",
+                  label: "Facebook",
                 },
                 {
                   icon: FaInstagram,
                   link: "https://www.instagram.com/",
+                  label: "Instagram",
                 },
                 {
                   icon: FaLinkedinIn,
                   link: "https://www.linkedin.com/",
+                  label: "LinkedIn",
                 },
                 {
                   icon: FaXTwitter,
                   link: "https://x.com/",
+                  label: "XTwitter",
                 },
               ].map(({ icon: Icon, link }, index) => (
                 <a
                   key={index}
                   href={link}
+                  aria-label={label}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
@@ -119,7 +125,7 @@ const Footer = () => {
         bg-[#3B3B3B]
         transition-all
         duration-300
-        hover:bg-[#B56A4C]
+        hover:bg-[#8A4B2F]
       "
                 >
                   <Icon />
@@ -133,14 +139,20 @@ const Footer = () => {
           © {new Date().getFullYear()} Elevate Studio. All Rights Reserved.
         </div>
 
-        <div className="mt-8 border-t border-[#E8DED3] pt-6 text-center text-sm text-[#5E544D]">
+        <div className="mt-8 border-t border-[#E8DED3] pt-6 text-center py-2 text-[#4A403A]">
           <p>
             Built for{" "}
             <a
               href="https://digitalheroesco.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-[#B56A4C] hover:underline"
+              className="inline-block
+        py-2
+        px-1
+        font-medium
+        text-[#D18A6A]
+        hover:underline
+ text-[#D18A6A] hover:underline"
             >
               Digital Heroes Training Task
             </a>

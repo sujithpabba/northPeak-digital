@@ -30,7 +30,7 @@ const Input = ({
             py-4
             outline-none
             transition
-            focus:border-[#B56A4C]
+            focus:border-[#8A4B2F]
           "
         />
       ) : (
@@ -50,7 +50,7 @@ const Input = ({
             py-4
             outline-none
             transition
-            focus:border-[#B56A4C]
+            focus:border-[#8A4B2F]
           "
         />
       )}

@@ -20,7 +20,7 @@ const SectionTitle = ({
           text-sm
           font-medium
 
-          text-[#B56A4C]
+          text-[#8A4B2F]
         "
       >
         {badge}
@@ -51,7 +51,7 @@ const SectionTitle = ({
 
           leading-8
 
-          text-[#5E544D]
+          text-[#4A403A]
         "
       >
         {description}

@@ -1,5 +1,5 @@
 import { FaArrowRight, FaStar } from "react-icons/fa6";
-import HeroImage from "../assets/images/hero-image.png";
+import HeroImage from "../assets/images/hero-image.webp";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Counter from "../ui/Counter";
@@ -42,7 +42,7 @@ const Hero = () => {
                 text-sm
                 font-medium
 
-                text-[#B56A4C]
+                text-[#8A4B2F]
               "
                         >
                             {hero.badge}
@@ -72,7 +72,7 @@ const Hero = () => {
                 text-lg
                 leading-8
 
-                text-[#5E544D]
+                text-[#4A403A]
               "
                         >
                             {hero.description}
@@ -88,7 +88,7 @@ const Hero = () => {
 
                                 <div key={item.title}>
 
-                                    <h2 className="text-4xl font-bold text-[#B56A4C]">
+                                    <h2 className="text-4xl font-bold text-[#8A4B2F]">
                                         <Counter
                                             end={parseInt(item.number)}
                                             suffix={item.number.replace(/[0-9]/g, "")}
@@ -99,7 +99,7 @@ const Hero = () => {
                                         className="
                       mt-2
 
-                      text-[#5E544D]
+                      text-[#4A403A]
                     "
                                     >
                                         {item.title}
@@ -172,11 +172,11 @@ const Hero = () => {
       shadow-xl
     "
                         >
-                            <h3 className="text-3xl font-bold text-[#B56A4C]">
+                            <h3 className="text-3xl font-bold text-[#8A4B2F]">
                                 250%
                             </h3>
 
-                            <p className="mt-1 text-sm text-[#5E544D]">
+                            <p className="mt-1 text-sm text-[#4A403A]">
                                 Average Growth
                             </p>
                         </div>

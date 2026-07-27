@@ -5,7 +5,7 @@ import Container from "../ui/Container";
 import Button from "../ui/Button";
 import navLinks from "../data/navLinks";
 
-import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/images/Logo.webp";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -65,12 +65,12 @@ const Navbar = () => {
             text-[16px]
             font-medium
 
-            text-[#5E544D]
+            text-[#4A403A]
 
             transition-all
             duration-300
 
-            hover:bg-[#B56A4C]
+            hover:bg-[#8A4B2F]
             hover:text-white
           "
                 >
@@ -115,7 +115,7 @@ const Navbar = () => {
                   <a
                     href={`#${link.id}`}
                     onClick={() => setMenuOpen(false)}
-                    className="block text-[#5E544D] font-medium"
+                    className="block text-[#4A403A] font-medium"
                   >
                     {link.label}
                   </a>

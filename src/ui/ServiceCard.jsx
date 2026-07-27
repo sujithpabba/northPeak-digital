@@ -32,14 +32,14 @@ const ServiceCard = ({ icon: Icon, title, description }) => {
 
           bg-[#F4ECE4]
 
-          text-[#B56A4C]
+          text-[#8A4B2F]
 
           text-2xl
 
           transition-all
           duration-300
 
-          group-hover:bg-[#B56A4C]
+          group-hover:bg-[#8A4B2F]
           group-hover:text-white
         "
       >
@@ -50,7 +50,7 @@ const ServiceCard = ({ icon: Icon, title, description }) => {
         {title}
       </h3>
 
-      <p className="mt-4 leading-7 text-[#5E544D]">
+      <p className="mt-4 leading-7 text-[#4A403A]">
         {description}
       </p>
     </div>
