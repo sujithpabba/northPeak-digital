@@ -87,30 +87,40 @@ const Footer = () => {
 
             <div className="mt-6 flex gap-4">
               {[
-                FaFacebookF,
-                FaInstagram,
-                FaLinkedinIn,
-                FaXTwitter,
-              ].map((Icon, index) => (
+                {
+                  icon: FaFacebookF,
+                  link: "https://www.facebook.com/",
+                },
+                {
+                  icon: FaInstagram,
+                  link: "https://www.instagram.com/",
+                },
+                {
+                  icon: FaLinkedinIn,
+                  link: "https://www.linkedin.com/",
+                },
+                {
+                  icon: FaXTwitter,
+                  link: "https://x.com/",
+                },
+              ].map(({ icon: Icon, link }, index) => (
                 <a
                   key={index}
-                  href="#"
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="
-                    flex
-                    h-11
-                    w-11
-                    items-center
-                    justify-center
-
-                    rounded-full
-
-                    bg-[#3B3B3B]
-
-                    transition-all
-                    duration-300
-
-                    hover:bg-[#B56A4C]
-                  "
+        flex
+        h-11
+        w-11
+        items-center
+        justify-center
+        rounded-full
+        bg-[#3B3B3B]
+        transition-all
+        duration-300
+        hover:bg-[#B56A4C]
+      "
                 >
                   <Icon />
                 </a>

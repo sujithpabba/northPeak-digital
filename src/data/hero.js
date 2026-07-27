@@ -1,5 +1,5 @@
 const hero = {
-  badge: "Luxury Digital Growth Agency",
+  badge: "Digital Growth Agency",
 
   title: "Building Digital Experiences That Inspire Growth.",
 
